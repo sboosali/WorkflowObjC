@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E78B27FD1CF1CCA500523AE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E78B27FC1CF1CCA500523AE3 /* main.m */; };
+		E78B28041CF1CCC000523AE3 /* workflow.m in Sources */ = {isa = PBXBuildFile; fileRef = E78B28031CF1CCC000523AE3 /* workflow.m */; };
+		E78B28071CF1D4C700523AE3 /* main2.m in Sources */ = {isa = PBXBuildFile; fileRef = E78B28061CF1D4C700523AE3 /* main2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		E78B27F91CF1CCA500523AE3 /* WorkflowObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WorkflowObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		E78B27FC1CF1CCA500523AE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E78B28031CF1CCC000523AE3 /* workflow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = workflow.m; sourceTree = "<group>"; };
+		E78B28051CF1CCE000523AE3 /* workflow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = workflow.h; sourceTree = "<group>"; };
+		E78B28061CF1D4C700523AE3 /* main2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				E78B27FC1CF1CCA500523AE3 /* main.m */,
+				E78B28031CF1CCC000523AE3 /* workflow.m */,
+				E78B28051CF1CCE000523AE3 /* workflow.h */,
+				E78B28061CF1D4C700523AE3 /* main2.m */,
 			);
 			path = WorkflowObjC;
 			sourceTree = "<group>";
@@ -118,6 +126,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78B28071CF1D4C700523AE3 /* main2.m in Sources */,
+				E78B28041CF1CCC000523AE3 /* workflow.m in Sources */,
 				E78B27FD1CF1CCA500523AE3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
